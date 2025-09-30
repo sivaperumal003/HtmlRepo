@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://static.vecteezy.com/system/resources/previews/037/998/809/non_2x/ai-generated-cherry-blossom-delight-background-image-generative-ai-free-photo.jpg)no-repeat;
+   background-size: cover;
+   background-position: center; 
+}
+.Wrapper{
+    width: 420px;
+    background-color: transparent;
+  border:  solid rgba(255, 255, 255, .2);
+  box-shadow: 0 0 10px rgpa(0,0,0,.2);
+  backdrop-filter: blur(20px);
+
+    color: white;
+    padding: 45px;
+}
+.Wrapper h1 {
+    font-size: 32px;
+    text-align: center;
+}
+.input{
+    width: 100%;
+    position: relative;
+    margin: 30px 0;
+    height: 50px;
+}
+.input input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    color: white;
+    outline: none;
+    border:  solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+}
+.input input::placeholder{
+    color: white;
+}
+.input i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+ font-size: 20px;
+    transform: translateY(-50%);
+
+}
+.Wrapper .rem{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.px;
+    margin: -15px 0 15px ;
+
+}
+.rem a{
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+
+}
+.rem label input{
+    color: white;
+    margin: 3px;
+}
+.rem a:hover{
+    text-decoration: underline;
+    
+}
+.Wrapper .button{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgpa(0,0,0,.1);
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+.Wrapper .Register{
+    margin-top: 20px;
+    text-align: center;
+   font-size: 14.5px;
+}
+ .Wrapper .Register p a{
+
+color: white;
+  font-weight: 600;
+  text-decoration: none;
+
+ }
+ .Register p a:hover{
+    text-decoration: underline;
+ }
